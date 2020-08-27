@@ -1,0 +1,15 @@
+{
+  "author": "prerender.io",
+  "dependencies": {
+    "express": "4.17.1",
+    "prerender-node": "3.2.5"
+  },
+  "description": "Vue.js example with Express.js and Prerender.io",
+  "keywords": [],
+  "license": "MIT",
+  "name": "prerender-vue-example",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/" />
+  <title>Prerender.io Vue.js Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    Logged in user is: {{ user }}
+  </div>
+
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        user: 'John Doe'
+      }
+    })
+  </script>
+</body>
+</html>
